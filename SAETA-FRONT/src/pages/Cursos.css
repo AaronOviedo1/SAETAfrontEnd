@@ -1,0 +1,33 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .box {
+    border-radius: 25px;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .tag.is-success {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+  }
+  
+  .button {
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .box.has-background-warning-light {
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+  }
+  

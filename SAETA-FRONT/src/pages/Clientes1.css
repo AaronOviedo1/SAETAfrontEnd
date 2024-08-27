@@ -1,0 +1,31 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.box {
+  border-radius: 25px;
+  padding: 1rem;
+  position: relative;
+}
+
+.tag.is-success {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.table {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}

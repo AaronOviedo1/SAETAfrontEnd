@@ -7,17 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Node modules and build directories
 node_modules
 dist
 dist-ssr
 *.local
-
-# TypeScript configuration
-tsconfig.json
-
-# Package configuration
-package.json
 
 # Editor directories and files
 .vscode/*
@@ -29,3 +22,4 @@ package.json
 *.njsproj
 *.sln
 *.sw?
+
